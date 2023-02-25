@@ -1,0 +1,25 @@
+C:\Users\LouisDing\Desktop\新增資料夾\MusicPlayer\MusicPlayer\bin\Debug\MusicPlayer.exe.config
+C:\Users\LouisDing\Desktop\新增資料夾\MusicPlayer\MusicPlayer\bin\Debug\MusicPlayer.exe
+C:\Users\LouisDing\Desktop\新增資料夾\MusicPlayer\MusicPlayer\bin\Debug\MusicPlayer.pdb
+C:\Users\LouisDing\Desktop\新增資料夾\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.csproj.AssemblyReference.cache
+C:\Users\LouisDing\Desktop\新增資料夾\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Properties.Resources.resources
+C:\Users\LouisDing\Desktop\新增資料夾\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.csproj.GenerateResource.cache
+C:\Users\LouisDing\Desktop\新增資料夾\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.csproj.CoreCompileInputs.cache
+C:\Users\LouisDing\Desktop\新增資料夾\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.exe
+C:\Users\LouisDing\Desktop\新增資料夾\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.pdb
+D:\Personal-Work-Space\C# Project\C# WinForm\MusicPlayer\MusicPlayer\bin\Debug\MusicPlayer.exe.config
+D:\Personal-Work-Space\C# Project\C# WinForm\MusicPlayer\MusicPlayer\bin\Debug\MusicPlayer.exe
+D:\Personal-Work-Space\C# Project\C# WinForm\MusicPlayer\MusicPlayer\bin\Debug\MusicPlayer.pdb
+D:\Personal-Work-Space\C# Project\C# WinForm\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.csproj.AssemblyReference.cache
+D:\Personal-Work-Space\C# Project\C# WinForm\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Properties.Resources.resources
+D:\Personal-Work-Space\C# Project\C# WinForm\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.csproj.GenerateResource.cache
+D:\Personal-Work-Space\C# Project\C# WinForm\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.csproj.CoreCompileInputs.cache
+D:\Personal-Work-Space\C# Project\C# WinForm\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.exe
+D:\Personal-Work-Space\C# Project\C# WinForm\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.pdb
+D:\Personal-Work-Space\C# Project\C# WinForm\MusicPlayer\MusicPlayer\bin\Debug\ControlLibrary.dll
+D:\Personal-Work-Space\C# Project\C# WinForm\MusicPlayer\MusicPlayer\bin\Debug\ControlLibrary.pdb
+D:\Personal-Work-Space\C# Project\C# WinForm\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Main.resources
+D:\Personal-Work-Space\C# Project\C# WinForm\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.csproj.CopyComplete
+D:\Personal-Work-Space\C# Project\C# WinForm\MusicPlayer\MusicPlayer\obj\Debug\Interop.WMPLib.dll
+D:\Personal-Work-Space\C# Project\C# WinForm\MusicPlayer\MusicPlayer\obj\Debug\AxInterop.WMPLib.dll
+D:\Personal-Work-Space\C# Project\C# WinForm\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.csproj.ResolveComReference.cache

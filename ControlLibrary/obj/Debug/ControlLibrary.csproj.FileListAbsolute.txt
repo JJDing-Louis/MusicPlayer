@@ -1,0 +1,45 @@
+D:\Personal-Work-Space\C# Project\ControlsDesign\ControlLibrary\bin\Debug\ControlLibrary.dll
+D:\Personal-Work-Space\C# Project\ControlsDesign\ControlLibrary\bin\Debug\ControlLibrary.pdb
+D:\Personal-Work-Space\C# Project\ControlsDesign\ControlLibrary\obj\Debug\ControlLibrary.csproj.CoreCompileInputs.cache
+D:\Personal-Work-Space\C# Project\ControlsDesign\ControlLibrary\obj\Debug\ControlLibrary.dll
+D:\Personal-Work-Space\C# Project\ControlsDesign\ControlLibrary\obj\Debug\ControlLibrary.pdb
+D:\Personal-Work-Space\C# Project\ControlsDesign\ControlLibrary\obj\Debug\ControlLibrary.csproj.GenerateResource.cache
+D:\Personal-Work-Space\C# Project\ControlsDesign\ControlLibrary\obj\Debug\ControlLibrary.Properties.Resources.resources
+D:\Personal-Work-Space\C# Project\ControlsDesign\ControlLibrary\obj\Debug\ControlLibrary.CustomMessageBox.resources
+D:\Personal-Work-Space\C# Project\ControlsDesign\ControlLibrary\bin\Debug\CircularProgressBar.dll
+D:\Personal-Work-Space\C# Project\ControlsDesign\ControlLibrary\bin\Debug\WinFormAnimation.dll
+D:\Personal-Work-Space\C# Project\ControlsDesign\ControlLibrary\bin\Debug\CircularProgressBar.xml
+D:\Personal-Work-Space\C# Project\ControlsDesign\ControlLibrary\obj\Debug\ControlLibrary.csproj.CopyComplete
+D:\Personal-Work-Space\C# Project\ControlsDesign\ControlLibrary\obj\Debug\ControlLibrary.ucTextBox.resources
+D:\Personal-Work-Space\C# Project\ControlsDesign\ControlLibrary\obj\Debug\ControlLibrary.ucRoundedTextBox.resources
+D:\Personal Project\ControlsDesign\ControlLibrary\obj\Debug\ControlLibrary.CustomController.ucDataGridView.resources
+D:\Personal Project\ControlsDesign\ControlLibrary\obj\Debug\ControlLibrary.CustomMessageBox.resources
+D:\Personal Project\ControlsDesign\ControlLibrary\obj\Debug\ControlLibrary.Properties.Resources.resources
+D:\Personal Project\ControlsDesign\ControlLibrary\obj\Debug\ControlLibrary.ucRoundedTextBox.resources
+D:\Personal Project\ControlsDesign\ControlLibrary\obj\Debug\ControlLibrary.ucTextBox.resources
+D:\Personal Project\ControlsDesign\ControlLibrary\obj\Debug\ControlLibrary.csproj.GenerateResource.cache
+D:\Personal Project\ControlsDesign\ControlLibrary\obj\Debug\ControlLibrary.csproj.CoreCompileInputs.cache
+D:\Personal Project\ControlsDesign\ControlLibrary\obj\Debug\ControlLibrary.dll
+D:\Personal Project\ControlsDesign\ControlLibrary\obj\Debug\ControlLibrary.pdb
+D:\Personal Project\ControlsDesign\ControlLibrary\bin\Debug\ControlLibrary.dll
+D:\Personal Project\ControlsDesign\ControlLibrary\bin\Debug\ControlLibrary.pdb
+D:\Personal Project\ControlsDesign\ControlLibrary\bin\Debug\CircularProgressBar.dll
+D:\Personal Project\ControlsDesign\ControlLibrary\bin\Debug\WinFormAnimation.dll
+D:\Personal Project\ControlsDesign\ControlLibrary\bin\Debug\CircularProgressBar.xml
+D:\Personal Project\ControlsDesign\ControlLibrary\obj\Debug\ControlLibrary.csproj.CopyComplete
+D:\Personal-Work-Space\C# Project\ControlsDesign\ControlLibrary\obj\Debug\ControlLibrary.CustomController.ucDataGridView.resources
+D:\Personal-Work-Space\C# Project\C# WinForm\MusicPlayer\ControlLibrary\bin\Debug\ControlLibrary.dll
+D:\Personal-Work-Space\C# Project\C# WinForm\MusicPlayer\ControlLibrary\bin\Debug\ControlLibrary.pdb
+D:\Personal-Work-Space\C# Project\C# WinForm\MusicPlayer\ControlLibrary\bin\Debug\CircularProgressBar.dll
+D:\Personal-Work-Space\C# Project\C# WinForm\MusicPlayer\ControlLibrary\bin\Debug\WinFormAnimation.dll
+D:\Personal-Work-Space\C# Project\C# WinForm\MusicPlayer\ControlLibrary\bin\Debug\CircularProgressBar.xml
+D:\Personal-Work-Space\C# Project\C# WinForm\MusicPlayer\ControlLibrary\obj\Debug\ControlLibrary.CustomController.ucDataGridView.resources
+D:\Personal-Work-Space\C# Project\C# WinForm\MusicPlayer\ControlLibrary\obj\Debug\ControlLibrary.CustomMessageBox.resources
+D:\Personal-Work-Space\C# Project\C# WinForm\MusicPlayer\ControlLibrary\obj\Debug\ControlLibrary.Properties.Resources.resources
+D:\Personal-Work-Space\C# Project\C# WinForm\MusicPlayer\ControlLibrary\obj\Debug\ControlLibrary.ucRoundedTextBox.resources
+D:\Personal-Work-Space\C# Project\C# WinForm\MusicPlayer\ControlLibrary\obj\Debug\ControlLibrary.ucTextBox.resources
+D:\Personal-Work-Space\C# Project\C# WinForm\MusicPlayer\ControlLibrary\obj\Debug\ControlLibrary.csproj.GenerateResource.cache
+D:\Personal-Work-Space\C# Project\C# WinForm\MusicPlayer\ControlLibrary\obj\Debug\ControlLibrary.csproj.CoreCompileInputs.cache
+D:\Personal-Work-Space\C# Project\C# WinForm\MusicPlayer\ControlLibrary\obj\Debug\ControlLibrary.csproj.CopyComplete
+D:\Personal-Work-Space\C# Project\C# WinForm\MusicPlayer\ControlLibrary\obj\Debug\ControlLibrary.dll
+D:\Personal-Work-Space\C# Project\C# WinForm\MusicPlayer\ControlLibrary\obj\Debug\ControlLibrary.pdb

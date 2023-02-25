@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1DA6C226-2920-485A-A640-A900607B902E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MusicPlayer</RootNamespace>
+    <AssemblyName>MusicPlayer</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ControlLibrary\ControlLibrary.csproj">
+      <Project>{7fcaded0-5dc3-4faf-94c7-77944cd95c41}</Project>
+      <Name>ControlLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Image\Icon\Apperence\analytics.png" />
+    <Content Include="Image\Icon\Apperence\camera.png" />
+    <Content Include="Image\Icon\Apperence\chart.png" />
+    <Content Include="Image\Icon\Apperence\class.png" />
+    <Content Include="Image\Icon\Apperence\cogwheel.png" />
+    <Content Include="Image\Icon\Apperence\connect.png" />
+    <Content Include="Image\Icon\Apperence\control.png" />
+    <Content Include="Image\Icon\Apperence\conveyor %281%29.png" />
+    <Content Include="Image\Icon\Apperence\conveyor %282%29.png" />
+    <Content Include="Image\Icon\Apperence\conveyor %283%29.png" />
+    <Content Include="Image\Icon\Apperence\conveyor.png" />
+    <Content Include="Image\Icon\Apperence\desk-lamp.png" />
+    <Content Include="Image\Icon\Apperence\industrial-robot.png" />
+    <Content Include="Image\Icon\Apperence\industrial-robot2.png" />
+    <Content Include="Image\Icon\Apperence\IO_setting.png" />
+    <Content Include="Image\Icon\Apperence\lamp.png" />
+    <Content Include="Image\Icon\Apperence\lightbulb.png" />
+    <Content Include="Image\Icon\Apperence\logs.png" />
+    <Content Include="Image\Icon\Apperence\no-connection.png" />
+    <Content Include="Image\Icon\Apperence\no-wifi.png" />
+    <Content Include="Image\Icon\Apperence\packing-machine.png" />
+    <Content Include="Image\Icon\Apperence\pie-chart.png" />
+    <Content Include="Image\Icon\Apperence\play %281%29.png" />
+    <Content Include="Image\Icon\Apperence\play %282%29.png" />
+    <Content Include="Image\Icon\Apperence\play %283%29.png" />
+    <Content Include="Image\Icon\Apperence\play %284%29.png" />
+    <Content Include="Image\Icon\Apperence\play.png" />
+    <Content Include="Image\Icon\Apperence\press-machine %281%29.png" />
+    <Content Include="Image\Icon\Apperence\press-machine.png" />
+    <Content Include="Image\Icon\Apperence\production.png" />
+    <Content Include="Image\Icon\Apperence\robotic-arm %281%29.png" />
+    <Content Include="Image\Icon\Apperence\robotic-arm.png" />
+    <Content Include="Image\Icon\Apperence\robotic-arm2.png" />
+    <Content Include="Image\Icon\Apperence\search.png" />
+    <Content Include="Image\Icon\Apperence\setting.png" />
+    <Content Include="Image\Icon\Apperence\settings.png" />
+    <Content Include="Image\Icon\Apperence\User_settings.png" />
+    <Content Include="Image\Icon\Apperence\User_settings2.png" />
+    <Content Include="Image\Icon\Apperence\wifi.png" />
+    <Content Include="Image\Icon\Icon\intXY.ico" />
+    <Content Include="Image\Icon\Icon\logoico.ico" />
+    <Content Include="Image\Icon\Icon\Rectangle_ICO.ico" />
+    <Content Include="Image\Icon\Icon\Rec_Green.ico" />
+    <Content Include="Image\Icon\Icon\Rec_Red.ico" />
+    <Content Include="Image\Icon\Motion\1305276520.png" />
+    <Content Include="Image\Icon\Motion\Actions-network-connect-icon.png" />
+    <Content Include="Image\Icon\Motion\Button-Close-icon.png" />
+    <Content Include="Image\Icon\Motion\Circle_Green.png" />
+    <Content Include="Image\Icon\Motion\Circle_Red.png" />
+    <Content Include="Image\Icon\Motion\Circle_Yellow.png" />
+    <Content Include="Image\Icon\Motion\ErrorICO.png" />
+    <Content Include="Image\Icon\Motion\Files-icon.png" />
+    <Content Include="Image\Icon\Motion\gear_488px_1190275_easyicon.net.png" />
+    <Content Include="Image\Icon\Motion\Home.png" />
+    <Content Include="Image\Icon\Motion\IO_IN.png" />
+    <Content Include="Image\Icon\Motion\IO_OUT.png" />
+    <Content Include="Image\Icon\Motion\Language.png" />
+    <Content Include="Image\Icon\Motion\Language256.png" />
+    <Content Include="Image\Icon\Motion\light_off_48px_1088470_easyicon.net.png" />
+    <Content Include="Image\Icon\Motion\light_on_48px_1088469_easyicon.net.png" />
+    <Content Include="Image\Icon\Motion\logoico.ico" />
+    <Content Include="Image\Icon\Motion\master_card_Pos_Machine_512px_510344_easyicon.net.png" />
+    <Content Include="Image\Icon\Motion\Network-Connection-Failed-icon.png" />
+    <Content Include="Image\Icon\Motion\Network-Connection-icon.png" />
+    <Content Include="Image\Icon\Motion\open-file-icon.png" />
+    <Content Include="Image\Icon\Motion\Parameter_Review_128px_534170_easyicon.net.png" />
+    <Content Include="Image\Icon\Motion\permission_180px_1186886_easyicon.net.png" />
+    <Content Include="Image\Icon\Motion\rectangle-icon.png" />
+    <Content Include="Image\Icon\Motion\Rectangle_red.png" />
+    <Content Include="Image\Icon\Motion\Report.png" />
+    <Content Include="Image\Icon\Motion\reset_32px_28025_easyicon.net.png" />
+    <Content Include="Image\Icon\Motion\Save-icon.png" />
+    <Content Include="Image\Icon\Motion\SECSGEM.png" />
+    <Content Include="Image\Icon\Motion\Setup_128px_534175_easyicon.net.png" />
+    <Content Include="Image\Icon\Motion\start_512px_568810_easyicon.net.png" />
+    <Content Include="Image\Icon\Motion\Users-Exit-icon.png" />
+    <Content Include="Image\Icon\Motion\停止.png" />
+    <Content Include="Image\Icon\Motion\啟動.png" />
+    <Content Include="Image\Icon\Motion\大量logo.png" />
+    <Content Include="Image\Icon\Motion\大量logo_橘色-去背.gif" />
+    <Content Include="Image\Icon\Motion\手動設定.png" />
+    <Content Include="Image\Icon\Motion\旋轉A盤.png" />
+    <Content Include="Image\Icon\Motion\旋轉B盤.png" />
+    <Content Include="Image\Icon\Motion\機台參數.png" />
+    <Content Include="Image\Icon\Motion\歷史.png" />
+    <Content Include="Image\Icon\Motion\生產設定%28默認存檔%29.png" />
+    <Content Include="Image\Icon\Motion\生產設定.png" />
+    <Content Include="Image\Icon\Motion\用戶.png" />
+    <Content Include="Image\Icon\Motion\用戶Login.png" />
+    <Content Include="Image\Icon\Motion\設定.png" />
+    <Content Include="Image\Icon\Motion\電源.png" />
+    <Content Include="Image\Icon\Motion\電腦.png" />
+    <Content Include="Image\Icon\Music Player\Color\audio %281%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\audio.png" />
+    <Content Include="Image\Icon\Music Player\Color\boombox.png" />
+    <Content Include="Image\Icon\Music Player\Color\calendarDark.png" />
+    <Content Include="Image\Icon\Music Player\Color\calendarWhite.png" />
+    <Content Include="Image\Icon\Music Player\Color\console.png" />
+    <Content Include="Image\Icon\Music Player\Color\dj-mixer.png" />
+    <Content Include="Image\Icon\Music Player\Color\eject %281%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\eject %282%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\eject.png" />
+    <Content Include="Image\Icon\Music Player\Color\equalizer %282%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\equalizer.png" />
+    <Content Include="Image\Icon\Music Player\Color\high.png" />
+    <Content Include="Image\Icon\Music Player\Color\launchpad.png" />
+    <Content Include="Image\Icon\Music Player\Color\levels %281%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\levels %282%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\levels.png" />
+    <Content Include="Image\Icon\Music Player\Color\mixer.png" />
+    <Content Include="Image\Icon\Music Player\Color\mixing.png" />
+    <Content Include="Image\Icon\Music Player\Color\multimedia.png" />
+    <Content Include="Image\Icon\Music Player\Color\music-player %285%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\music-player %286%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\music.png" />
+    <Content Include="Image\Icon\Music Player\Color\musical-note %281%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\musical-note %282%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\musical-note %283%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\musical-note.png" />
+    <Content Include="Image\Icon\Music Player\Color\mute %281%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\mute %283%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\mute %285%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\mute.png" />
+    <Content Include="Image\Icon\Music Player\Color\mute_3.png" />
+    <Content Include="Image\Icon\Music Player\Color\pause %281%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\pause %282%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\pause %283%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\pause %284%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\pause %285%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\pause.png" />
+    <Content Include="Image\Icon\Music Player\Color\play %281%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\play %282%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\play %283%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\play %284%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\play %285%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\play-button %281%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\play-button %282%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\play-button %283%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\play-button %284%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\play-button.png" />
+    <Content Include="Image\Icon\Music Player\Color\play.png" />
+    <Content Include="Image\Icon\Music Player\Color\plus.png" />
+    <Content Include="Image\Icon\Music Player\Color\quaver.png" />
+    <Content Include="Image\Icon\Music Player\Color\rear.png" />
+    <Content Include="Image\Icon\Music Player\Color\settings %281%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\settings %282%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\settings.png" />
+    <Content Include="Image\Icon\Music Player\Color\setup.png" />
+    <Content Include="Image\Icon\Music Player\Color\sound %281%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\sound %283%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\sound %284%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\sound %285%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\sound %286%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\sound %287%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\sound %288%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\sound-bars.png" />
+    <Content Include="Image\Icon\Music Player\Color\sound-mixer.png" />
+    <Content Include="Image\Icon\Music Player\Color\sound-on.png" />
+    <Content Include="Image\Icon\Music Player\Color\sound-waves.png" />
+    <Content Include="Image\Icon\Music Player\Color\sound.png" />
+    <Content Include="Image\Icon\Music Player\Color\sound_4.png" />
+    <Content Include="Image\Icon\Music Player\Color\speaker.png" />
+    <Content Include="Image\Icon\Music Player\Color\stop %281%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\stop %282%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\stop %283%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\stop-button.png" />
+    <Content Include="Image\Icon\Music Player\Color\stop.png" />
+    <Content Include="Image\Icon\Music Player\Color\Style1\arrow %281%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\Style1\arrows.png" />
+    <Content Include="Image\Icon\Music Player\Color\Style1\audio-player.png" />
+    <Content Include="Image\Icon\Music Player\Color\Style1\audio.png" />
+    <Content Include="Image\Icon\Music Player\Color\Style1\cloud-computing.png" />
+    <None Include="Image\Icon\Music Player\Color\Style1\cogwheel.png" />
+    <Content Include="Image\Icon\Music Player\Color\Style1\compact-disc.png" />
+    <Content Include="Image\Icon\Music Player\Color\Style1\equalizer %281%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\Style1\equalizer%285%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\Style1\exit.png" />
+    <Content Include="Image\Icon\Music Player\Color\Style1\gramphone.png" />
+    <Content Include="Image\Icon\Music Player\Color\Style1\minimize.png" />
+    <Content Include="Image\Icon\Music Player\Color\Style1\mp4.png" />
+    <Content Include="Image\Icon\Music Player\Color\Style1\music-player %281%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\Style1\music-player %2811%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\Style1\music-player %2812%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\Style1\music-player %282%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\Style1\music-player %283%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\Style1\music-player %284%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\Style1\music-player.png" />
+    <Content Include="Image\Icon\Music Player\Color\Style1\music-player_headphone.png" />
+    <Content Include="Image\Icon\Music Player\Color\Style1\playlist.png" />
+    <Content Include="Image\Icon\Music Player\Color\Style1\previous %282%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\Style1\previous.png" />
+    <Content Include="Image\Icon\Music Player\Color\Style1\skip.png" />
+    <Content Include="Image\Icon\Music Player\Color\Style1\volume.png" />
+    <Content Include="Image\Icon\Music Player\Color\Style2\mixer %281%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\Style2\music-player %2810%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\Style2\music-player %2813%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\Style2\music-player %287%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\Style2\music-player %288%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\Style2\music-player %289%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\Style2\mute %282%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\Style2\playlist.png" />
+    <Content Include="Image\Icon\Music Player\Color\Style2\sound %282%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\Style2\waves.png" />
+    <Content Include="Image\Icon\Music Player\Color\turntable.png" />
+    <Content Include="Image\Icon\Music Player\Color\video-player.png" />
+    <Content Include="Image\Icon\Music Player\Color\volume %281%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\volume %282%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\volume %283%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\volume %285%29.png" />
+    <Content Include="Image\Icon\Music Player\Color\volume-adjustment.png" />
+    <Content Include="Image\Icon\Music Player\Color\volume-up.png" />
+    <Content Include="Image\Icon\Music Player\Color\volume.png" />
+    <Content Include="Image\Icon\Vision\AddInspectList.png" />
+    <Content Include="Image\Icon\Vision\camera.png" />
+    <Content Include="Image\Icon\Vision\checklist.png" />
+    <Content Include="Image\Icon\Vision\Die示意圖.png" />
+    <Content Include="Image\Icon\Vision\Draw_ROI.png" />
+    <Content Include="Image\Icon\Vision\GetTemplate.png" />
+    <Content Include="Image\Icon\Vision\Histogram_ico.png" />
+    <Content Include="Image\Icon\Vision\ModifyRecipe.png" />
+    <Content Include="Image\Icon\Vision\NewFile.png" />
+    <Content Include="Image\Icon\Vision\OCR.png" />
+    <Content Include="Image\Icon\Vision\OCR設計.png" />
+    <Content Include="Image\Icon\Vision\OpenFolder.png" />
+    <Content Include="Image\Icon\Vision\receipt.png" />
+    <Content Include="Image\Icon\Vision\Save.png" />
+    <Content Include="Image\Icon\Vision\SaveAs.png" />
+    <Content Include="Image\Icon\Vision\SaveAs2.png" />
+    <Content Include="Image\Icon\Vision\SimpleMarkSelect.png" />
+    <Content Include="Image\Icon\Vision\SimpleMarkSet.png" />
+    <Content Include="Image\Icon\Vision\target.png" />
+    <Content Include="Image\Icon\Vision\Teaching.png" />
+    <Content Include="Image\Icon\Vision\Undo.png" />
+    <Content Include="Image\Icon\Vision\video-camera.png" />
+    <Content Include="Image\Icon\Vision\zoom-in %281%29.png" />
+    <Content Include="Image\Icon\Vision\zoom-in %282%29.png" />
+    <Content Include="Image\Icon\Vision\zoom-in.png" />
+    <Content Include="Image\Icon\Vision\zoom-out %281%29.png" />
+    <Content Include="Image\Icon\Vision\zoom-out.png" />
+    <Content Include="Image\Icon\Vision\Zoom.png" />
+    <Content Include="Image\Icon\Vision\偏膠.png" />
+    <Content Include="Image\Icon\Vision\偏膠設計.png" />
+    <Content Include="Image\Music.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Image\Icon\Music Player\Gray\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
